@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+.skidka{
+    background-color: #454F5B;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 452px;
+}
+.continer_skidka{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 197px;
+}
+.continer_skidka h4{
+font-weight: 500px;
+color: #FFFFFF;
+letter-spacing: 12%;
+line-height: 26px;
+}
+.continer_skidka a{
+font-weight: 500px;
+color: #FFFFFF;
+letter-spacing: 12%;
+line-height: 26px;
+padding-right: 100px;
+}
+/*header boshlanish*/
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 -1 0 #C4CDD5;
+    margin-bottom: 20px;
+}
+.continer_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 283.1px;
+}
+.continer_header .header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 101px;
+}
+.header_logo img{
+    width: 50.4px;
+    height: 42px;
+}
+.header_logo .header_link ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    list-style: none;
+}
+.header_logo .header_link ul li a{
+    text-decoration: none;
+    font-weight: 300px;
+    font-size: 20px;
+    line-height: 23.87px;
+    color: #161C24;
+}
+.continer_header .contact_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+}
+.contact_header span{
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 21.48px;
+    color: #454F5B;
+}
+.contact_header span::before{
+    content: url(../image/phonelogo.svg);
+    position: absolute;
+    left: -25px;
+}
+.header_link img{
+    width: 32px;
+    height: 32px;
+}
