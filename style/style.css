@@ -521,7 +521,8 @@ margin-bottom: 24px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 196px;
+            justify-content: center;
+    gap: 96px;
 }
 .continer_footer .footer_logo .image3{
     width: 105.8px;
